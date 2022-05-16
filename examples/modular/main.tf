@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     ciscoevpn = {
-      source = "terraform.local/local/ciscoevpn"
-      //version = "0.0.1"
+      source = "robertcsapo/ciscoevpn"
+      version = "1.0.0"
     }
   }
 }
