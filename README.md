@@ -8,8 +8,6 @@ terraform-provider-ciscoevpn is a Terraform Provider for Cisco Catalyst 9000 Swi
 - [Terraform](https://www.terraform.io/downloads.html) >= 1.0
 - [Go](https://golang.org/doc/install) >= 1.18
 
-Then commit the changes to `go.mod` and `go.sum`.
-
 ## Using the provider
 
 Use ```terraform init``` to download the plugin from Terrafrom Registry.
@@ -20,7 +18,7 @@ terraform {
   required_providers {
     ciscoevpn = {
       source = "robertcsapo/ciscoevpn"
-      version = "1.0.0"
+      version = "1.0.1"
     }
   }
 }
